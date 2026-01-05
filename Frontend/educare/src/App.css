@@ -1,0 +1,78 @@
+.dropdown-toggle{
+    transition: .5s;
+}
+#service_card{
+    width: 23rem;
+}
+#btn5{
+    margin-left: 0px;
+}
+#service_card h2{
+    font-size: 35px;
+}
+#service_card .card-text{
+    font-size: 15px;
+}
+#after-10th-card{
+    width: 20rem;
+}
+#gif2{
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 431px){
+    .fc{
+        margin-left: 0px;
+    }
+    .gif-1{
+        margin-top: 100px;
+        margin-left: -50px;
+    }
+    .home-img{
+        margin-left: 0px;
+    }
+    #animation{
+        margin-left: 0px;
+    }
+   
+    #btn5{
+       margin-left: 0px;
+    }
+    #service_card{
+        width: 100%;
+    }
+    #after-10th-card{
+        overflow: hidden;
+    }
+    #service_card h2{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .fc{
+        width: 370px;
+    }
+    #service_card{
+        width: 100%;
+    }
+    #after-10th-card{
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width: 432px) and (max-width: 769px){
+    #bgimg2{
+        padding-left: 15%;
+    }
+    .fc{
+        width: 500px;
+    }
+    #service_card{
+        width: 100%;
+    }
+    #btn5{
+        margin-left: -100px;
+    }
+}
